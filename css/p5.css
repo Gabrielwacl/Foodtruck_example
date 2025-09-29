@@ -1,0 +1,83 @@
+            #p5 .mainp5{
+                height: 100vh;
+                width: 100%;
+            }
+            #p5 .divbackgroundp5{
+                height: 100%;
+                width: 100%;
+                background-image: url("image/background2.jpg");
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                z-index: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #p5 .divombrep5{
+                background: rgba(0, 0, 0, 0.322); 
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #p5 .divprin5{
+                height: 40%;
+                width: 60%;
+            }
+            #p5 .divtitlep5{
+                width: 100%;
+                height: 60%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #p5 .titlep5{
+                font-size: 5rem;
+                color: white;
+                font-family: 'Jost', sans-serif;
+            }
+            #p5 .divtextp5{
+                height: 40%;
+                width: 100%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+            }
+            #p5 .butp5{
+                cursor: pointer;
+                background: transparent;
+                border: 2px white, solid;
+                border-radius: 40px;
+                height: 3.8rem;
+                width: 23rem;
+                font-size: 1.25rem;
+                color: white;
+                font-family: 'Source Sans Pro', sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #p5 .butp5:hover{
+                background-color: white;
+                color: black;
+                transition: 0.2s;
+            }
+            @media(max-width: 1024px){
+                #p5 .divbackgroundp5{
+                    background-size: cover;
+                }
+                #p5 .divprin5{
+                    width: 80%;
+                }
+                #p5 .titlep5{
+                    font-size: 2.6rem;
+                }
+                #p5 .butp5{
+                    font-size: 1.1rem;
+                    width: 20rem;
+                    margin-top: -2rem;
+                }
+            }

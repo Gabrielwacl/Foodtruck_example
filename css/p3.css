@@ -1,0 +1,69 @@
+            #p3 .mainp3{
+                height: 100vh;
+                width: 100%;
+            }
+            #p3 .divbackgroundp3{
+                height: 100%;
+                width: 100%;
+                background-image: url("image/background.jpg");
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                z-index: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #p3 .divombrep3{
+                background: rgba(0,0,0,0.4); 
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #p3 .divprin3{
+                height: 40%;
+                width: 60%;
+            }
+            #p3 .divtitlep3{
+                width: 100%;
+                height: 60%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #p3 .titlep3{
+                font-size: 5rem;
+                color: white;
+                font-family: 'Jost', sans-serif;
+            }
+            #p3 .divtextp3{
+                height: 40%;
+                width: 100%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+            }
+            #p3 .textp3{
+                color: rgba(255, 255, 255, 0.904);
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 1.3rem;
+                margin-top: -1rem;
+            }
+            @media(max-width: 1024px){
+                #p3 .divbackgroundp3{
+                    background-size: cover;
+                }
+                #p3 .divprin3{
+                    width: 80%;
+                }
+                #p3 .titlep3{
+                    font-size: 3.5rem;
+                }
+                #p3 .textp3{
+                    text-align: center;
+                    margin-top: -2rem;
+                }
+            }

@@ -1,0 +1,160 @@
+            #p6 .mainp6{
+                height: 100vh;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+            }
+            #p6 .divmargin{
+                width: 70%;
+                height: 60%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            #p6 .box1p6{
+                width: 40%;
+                height: 100%;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                margin-right: 3rem;
+            }
+            #p6 .box2p6{
+                width: 30%;
+                height: 90%;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+            }
+            #p6 .box3p6{
+                width: 30%;
+                height: 90%;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+            }
+            #p6 .divtitle{
+                height: 75%;
+                width: 100%;
+            }
+            #p6 .divinfo{
+                height: 75%;
+                width: 100%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+            }
+            #p6 .title{
+                height: 65%;
+                width: 100%;
+            }
+            #p6 .divtext{
+                height: 17.5%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+            }
+            #p6 .divtext2{
+                height: 17.5%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+            }
+            #p6 .h1title{
+                color: #fcba21;
+                font-size: 2.4rem;
+                letter-spacing: 2px;
+                font-family: 'futura-pt', sans-serif;
+                line-height: 1.2;
+                margin-top: -0.01rem;
+                font-weight: 700;
+            }
+            #p6 .para{
+                color: #b3baba;
+                font-weight: 600;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 1.2rem;
+                margin-right: 10px;
+                margin-top: -3rem;
+            }
+            #p6 .ahref{
+                color: #b3baba;
+                font-weight: 600;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 1.2rem;
+                margin-top: -4.3rem;
+            }
+            #p6 .margin, #p6 .margin2{
+                width: 93%;
+                height: 45%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+            }
+            #p6 .textprin, #p6 .text1, #p6 .text2, #p6 .h1text, #p6 .text11, #p6 .text21{
+                height: 33.3%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+            }
+            #p6 .h1text{
+                color: #b3baba;
+                font-weight: 700;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 1.3rem;
+            }
+            #p6 .text{
+                color: #b3baba;
+                font-weight: 550;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 1.1rem;               
+            }
+            #p6 .réseaux{
+                color: #b3baba;
+                font-weight: 600;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 1.2rem;    
+                text-decoration: none;
+            }
+            #p6 .text11, #p6 .text11{
+                display: flex;
+                align-items: center;
+            }
+            #p6 .imgreseaux{
+                height: 1.5rem;
+                width: 1.5rem;
+                object-fit: contain;
+                margin-right: 10px;
+            }
+            @media(max-width: 1024px){
+                #p6 .divmargin{
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+                }
+                #p6 .box1p6, #p6 .box2p6, #p6 .box3p6{
+                    width: 85%;
+                }
+                #p6 .h1title{
+                    font-size: 2rem;
+                }
+                #p6 .divtext{
+                    margin-top: 5rem;
+                }
+                #p6 .box2p6{
+                    margin-top: 3rem;
+                }
+                #p6 .box3p6{
+                    display: flex;
+                    align-items: flex-start;
+                }
+                #p6 .margin2{
+                    height: 100%;
+                }
+                #p6 .margin{
+                    height: 55%;
+                }
+            }

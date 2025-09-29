@@ -1,0 +1,240 @@
+        html, body{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #p1{
+            height: 100%;
+            width: 100%;
+        }
+        #p1 .prinimgp1{
+            height: 100%;
+            width: 100%;
+            background-image: url("image/foodtruck.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #p1 .prinimgp1::after{
+            background: rgba(0,0,0,0.4); 
+        }
+        #p1 .divombrep1{
+            background: rgba(0,0,0,0.4); 
+            height: 100%;
+            width: 100%;
+        }
+        #p1 .headerp1{
+            width: 100%;
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #p1 .headerlogo{
+            height: 100%;
+            width: 18rem;
+            margin-left: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #p1 .headeronglet{
+            height: 100%;
+            width: 34rem;
+            margin-right: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #p1 .headtitre{
+            color: white;
+            font-family: 'Jost', sans-serif;
+            font-size: 1.5rem;
+        }
+        #p1 .divonglet{
+            height: 100%;
+            width: 8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #p1 .butonglet{
+            cursor: pointer;
+            height: 90%;
+            width: 90%;
+            border: none; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: transparent;
+        }
+        #p1 .paraonglet{
+            color: white;
+            font-size: 0.9rem;
+            font-family: 'Source Sans Pro', sans-serif;
+            letter-spacing: 2px;
+            font-weight: 550;
+        }
+        #p1 .paraonglet:hover{
+            transition: 0.3s;
+            color: #c5ab6b;
+        }
+        #p1 .divprinp1{
+            width: 100%;
+            height: 35rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #p1 .divp1{
+            height: 45%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+        }
+        #p1 .divnamep1{
+            width: 100%;
+            height: 45%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #p1 .divtextp1{
+            width: 100%;
+            height: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #p1 .divbutp1{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #p1 .titleprin{
+            color: white;
+            font-family: 'Jost', sans-serif; 
+            font-size: 4.3rem;
+        }
+        #p1 .paraprin{
+            font-family: 'Source Sans Pro', sans-serif;
+            color: rgba(255, 255, 255, 0.904); 
+            font-size: 1.16rem;
+            margin-bottom: 2rem;
+        }
+        #p1 .butcontact{
+            cursor: pointer;
+            background: transparent;
+            border: 2px white, solid;
+            border-radius: 40px;
+            height: 3.8rem;
+            width: 25rem;
+            font-size: 1.2rem;
+            color: white;
+            font-family: 'Source Sans Pro', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #p1 .butcontact:hover{
+            background-color: white;
+            color: black;
+            transition: 0.2s;
+        }
+        @media(max-width: 1024px){
+            #p1 .headerrespon{
+                height: 3rem;
+                width: 3.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #p1 .butmenurespon{
+                height: 100%;
+                width: 100%;
+                border: none;
+                background: transparent;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #p1 .imgbutrespon{
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+            #p1 .divrespon{
+                height: 85%;
+                width: 60%;
+                z-index: 10;
+                position: fixed;
+                margin-left: 40%;
+                background: rgba(255, 255, 255, 0.322);
+                backdrop-filter: blur(7px);
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            #p1 .divongletrespon{
+                width: 100%;
+                height: 4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #p1 .butongletrespon{
+                width: 60%;
+                height: 100%;
+                border: none;
+                background: transparent;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #p1 .paraongletrespon{
+                font-size: 1.1rem;
+                color: white;
+                font-weight: 700;
+            }
+
+            #p1 .headtitre{
+                font-size: 1rem;
+            }
+            #p1 .headerlogo{
+                margin-left: -2rem;
+            }
+            #p1 .prinimgp1{
+                background-size: cover;
+                background-position: center;
+            }
+            #p1 .divp1{
+                width: 80%;
+            }
+            #p1 .titleprin{
+                text-align: center;
+                line-height: 1.2;
+            }
+            #p1 .divp1{
+                height: 85%;
+            }
+            #p1 .paraprin{
+                font-size: 1rem;
+                margin-bottom: -7rem;
+                text-align: center;
+            }
+        }
+
+        /*
+        LES POLICES
+        font-family: 'Jost', sans-serif;                NAME
+        font-family: 'Source Sans Pro', sans-serif;     ONGLET
+        */

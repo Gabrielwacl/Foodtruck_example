@@ -1,0 +1,169 @@
+            #p2 .prinp2{
+                width: 100%;
+                height: 100vh;
+            }
+            #p2 .divtitlehead{
+                width: 100%;
+                height: 10rem;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+            }
+            #p2 .divtitle{
+                height: 45%;
+                width: 35%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+            }
+            #p2 .h1title{
+                color: #fcba21;
+                font-size: 3rem;   
+                letter-spacing: 2px;
+                font-family: 'futura-pt', sans-serif;
+            }
+            #p2 .divprin{
+                width: 100%;
+                height: 30rem;
+                display: flex;
+            }
+            #p2 .divbox1{
+                height: 100%;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+            #p2 .divcontext, #p2 .divsolution{
+                width: 60%;
+                height: 40%;
+                margin-right: 5rem;
+                display: flex;
+            }
+            #p2 .divchiffre{
+                height: 100%;
+                width: 7rem;
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-start;
+            }
+            #p2 .parachiffre{
+                font-size: 3.2rem;
+                font-family: 'Inter', sans-serif; 
+                line-height: 0;
+            }
+            #p2 .divtextcontext, #p2 .divtextsolution{
+                height: 100%;
+                width: 19rem;
+                display: flex;
+                flex-direction: column;
+            }
+            #p2 .divcontexttitle, #p2 .divsolutitle{
+                width: 100%;
+                height: 3rem;
+                display: flex;
+                align-items: center;
+            }
+            #p2 .titlebox{
+                font-family: 'Playfair Display', serif;
+                font-size: 1.8rem;
+                margin-left: 2rem;
+            }
+            #p2 .divcontextpara, #p2 .divsolupara{
+                width: 100%;
+                height: 9rem;
+                display: flex;
+                align-items: flex-start;
+            }
+            #p2 .parap2{
+                font-family: 'Inter', sans-serif; 
+                font-size: 1.1rem;
+                margin-left: 2rem;
+                margin-top: -0.1rem;
+            }
+            #p2 .divbox2{
+                height: 100%;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+            }
+            #p2 .divimg1{
+                width: 100%;
+                height: 40%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+            }
+            #p2 .divimg2{
+                width: 100%;
+                height: 60%;
+            }
+            #p2 .divbaseimg1{
+                height: 100%;
+                width: 40%;
+                margin-right: 5rem;
+                margin-top: -5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #p2 .divbaseimg2{
+                height: 100%;
+                width: 70%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: -2rem;
+            }
+            #p2 .imgp2{
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+            @media(max-width: 1024px){
+                #p2 .divprin{
+                    display: flex;
+                    flex-direction: column;
+                }
+                #p2 .divbox1{
+                    width: 100%;
+                    margin-top: -3rem;
+                }
+                #p2 .divbox2{
+                    width: 100%;
+                }
+                #p2 .divcontext, #p2 .divsolution{
+                    width: 87%;
+                }
+                #p2 .parachiffre{
+                    font-size: 2rem;
+                }
+                #p2 .parap2{
+                    font-size: 1rem;
+                }
+                #p2 .titlebox{
+                    font-size: 1.6rem;
+                }
+                #p2 .divbox2{
+                    display: none;
+                }
+                #p2 .divtitlehead{
+                    margin-top: 4rem;
+                    display: flex;
+                    align-items: center;
+                }
+                #p2 .divtitle{
+                    width: 75%;
+                }
+                #p2 .h1title{
+                    font-size: 2rem;
+                }
+            }       
+
+            /*
+            POLICE
+                font-family: 'futura-pt', sans-serif; NOS SERVICE
+                font-family: 'Inter', sans-serif; 01/02
+                font-family: 'Playfair Display', serif; titlebox
+            */
